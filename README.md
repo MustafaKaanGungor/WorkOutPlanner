@@ -1,6 +1,27 @@
 # WorkOutPlanner
 WorkOutPlanner by Ezekiel's Chariots
 
+Alınacak veriler
+-Kilo
+-Boy
+-Boyun Çevresi
+-Bel çevresi
+-Aktivite Seviyesi(ne kadar spor yaptıığı)
+-Hedef
+
+Hesaplanacak veriler
+-Vücut Kitle Endeksi
+-Yağ Oranı
+-Günlük Kalori İhtiyacı(Katch Mcardle)
+-BMR
+-Yağ Yakımı başlangıç kalori
+-kilo alma başlangıç kalori
+
+
+
+
+https://www.acefitness.org/resources/everyone/exercise-library/equipment/ladder/
+
 Başlangıç Seviye
 1.Program 5x5
 Program Özeti: 5×5 Full Body Antrenman Programı, en hızlı kas yapma, yağ yakma ve vücut geliştirme sonuçlarını sağladığı için yeni başlayanlar için en ideal programdır. Temel egzersizlerin yanında yapamadığınız hareketler için asistanlar ekleyebilir veya alternatif hareket yapabilirsiniz.

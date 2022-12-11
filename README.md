@@ -48,7 +48,7 @@ Mümkün olduğu kadar programın öğrencisi olmaya çalışın. Ancak:
 3.  Ağırlıklı Barfiks mümkün değilse Lat Pulldown,
 4.  Ağırlıklı Dips mümkün değilse Close Grip Bench Press yapabilirsiniz.
 
-
+abc
 
 
 

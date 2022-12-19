@@ -2,6 +2,8 @@
 WorkOutPlanner by Ezekiel's Chariots
 
 Alınacak veriler
+-Cinsiyet
+-Yaş
 -Kilo
 -Boy
 -Boyun Çevresi
@@ -17,7 +19,7 @@ Hesaplanacak veriler
 -Yağ Yakımı başlangıç kalori
 -kilo alma başlangıç kalori
 
-
+###sözlüğü ayrı bir c dosyasına koy, kullanıcı istediğinde o exe yi çalıştır
 
 
 https://www.acefitness.org/resources/everyone/exercise-library/equipment/ladder/

@@ -1,10 +1,26 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include<conio.h>
 
 int cikis= 1;
-float yas, kilo, boy, boyunCevre, belCevre;
+float yas = 0, kilo = 0, boy = 0, boyunCevre = 0, belCevre = 0;
 char aktiflikSeviye[20], hedefBolge[20];
+
+void changeColorRed() 
+{
+  printf("\033[1;31m");
+}
+
+void changeColorYellow() 
+{
+  printf("\033[1;33m");
+}
+
+void changeColorReset()
+{
+  printf("\033[0m");
+}
 
 void monkDictionary()
 {
@@ -15,19 +31,19 @@ void monkDictionary()
 void veriAlici()
 {
     printf("Yasinizi giriniz.");
-    scanf("");
+    scanf("%f", &yas);
 
     printf("\nKilonuzu giriniz.");
-    scanf("");
+    scanf("%f", &kilo);
 
     printf("\nBoyunuu giriniz.");
-    scanf("");
+    scanf("%f", &boy);
 
     printf("\nBoyun cevrenizi cm olarak giriniz.");
-    scanf("");
+    scanf("%f", &boyunCevre);
 
     printf("\nBel cevrenizi cm olarak giriniz.");
-    scanf("");
+    scanf("%f", &belCevre);
 }
 
 void veriHesaplayici()
@@ -51,15 +67,15 @@ void workOutBible()
 
 void acilisEkrani()
 {
-    printf(" __   __  ___     ______     _______    __   ___   ______    ____  ____  ___________  _______   ___            __      _____  ___   _____  ___    _______   _______   \n");
-    printf("|*  |/  \\|  *|   /    * \\   /*      \\  /* | /  *) /    * \\  (*  _||_ * |(*     _   *)|   __ *\\ |* |          /**\\    (\\*   \\|*  \\ (\\*   \\|*  \\  /*     *| /*      \\  \n");
-    printf("|'  /    \\:  |  // ____  \\ |: ____   | (: |/   / // ____  \\ |   (  ) : | )__/  \\__/ (. |__) :) |  |         /    \\   |.\\   \\    ||.\\   \\    |(: ______)|:        | \n");
-    printf("|: /'        | /  /    ):) |_____/   ) |    __/ /  /    ) :)(:  |  | . )    \\_ /    |:  ____/  |: |        /' /\\  \\  |: \\.   \\  ||: \\.   \\  | \\/    |  |_____/   ) \n");
-    printf(" \\//  /\'     |(: (____/ //  //      /  (// _  \\(: (____/  // \\ \\__/  //     |. |    (|  /      \\  |___    //  __'  \\ |.  \\    \\. ||.  \\    \\. | // ___)_  //      /  \n");
-    printf(" /   /  \\    | \\        /  |:  __   \\  |: | \\  \\          /   /\\ __  //\\     \\: |   /|__/ \\    ( \\_|:  \\  /   /  \\  \\|    \\    \\ ||    \\    \\ |(:      *||:  __   \\  \n");
-    printf("|___/    \\___|  \\*_____/   |__|  \\___) (__|  \\__)\\*_____/   (__________)     \\_|  (_______)    \\_______)(___/    \\___)\\___|\\____\\) \\___|\\____\\) \\_______)|__|  \\___) \n");
-    printf("                                                                                                                                                  by Chariots of Ezekiel      \n");
- 
+    changeColorRed();
+    printf(" _       __           __   ____        __  ____  __                           \n");
+    printf("| |     / /___  _____/ /__/ __ \\__  __/ /_/ __ \\/ /___ _____  ____  ___  _____\n");
+    printf("| | /| / / __ \\/ ___/ //_/ / / / / / / __/ /_/ / / __ `/ __ \\/ __ \\/ _ \\/ ___/\n");
+    printf("| |/ |/ / /_/ / /  / ,< / /_/ / /_/ / /_/ ____/ / /_/ / / / / / / /  __/ /    \n");
+    printf("|__/|__/\\____/_/  /_/|_|\\____/\\__,_/\\__/_/   /_/\\__,_/_/ /_/_/ /_/\\___/_/     \n");
+    changeColorYellow();
+    printf("                                                     by Chariots of Ezekiel      \n\n");
+    changeColorReset();
 }
 
 int secimEkrani()

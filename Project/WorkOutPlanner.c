@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include<conio.h>
+#include <direct.h>
 
 int cikis= 1;
 float yas = 0, kilo = 0, boy = 0, boyunCevre = 0, belCevre = 0;
@@ -44,7 +45,25 @@ void workOutBible()
 
 }
 
-void veriYorumlayici()
+void PrintFullPath( char * partialPath )
+{
+   char full[_MAX_PATH];
+   if( _fullpath( full, partialPath, _MAX_PATH ) != NULL )
+      printf( "  %s ", full );
+   else
+      printf( "Invalid path\n" );
+}
+
+void raporCikarici()
+{
+    changeColorGreen();
+    printf("\nSonuclariniza daha sonra da ulasabilmeniz icin");
+    PrintFullPath("Sonuc.txt");
+    printf("yolundaki text dosyasina yazdik.\n");
+    changeColorReset();
+}
+
+void vucutKitleEndeksYorumlayici()
 {
     vucutKitleEndeks = vucutKitleEndeks * 10;
     int a = vucutKitleEndeks;
@@ -69,7 +88,6 @@ void veriYorumlayici()
     {
         printf("morbid obez");
     }
-    
 }
 
 void veriHesaplayici()
@@ -104,7 +122,8 @@ void workOutGuider()
 
     veriHesaplayici();
 
-    veriYorumlayici();
+    raporCikarici();
+
 }
 
 void monkDictionary()
@@ -140,7 +159,7 @@ void menuYonlendirici(int secim)
 int secimEkrani()
 {
     int secim = 0;
-    printf("WorkOutPlanner'a hosgeldiniz\n");
+    printf("\nWorkOutPlanner'a hosgeldiniz\n");
     printf("Secimizin basindaki numarayi girerek secim yapin.\n");
     printf("1- Monk's Dictionary\n");
     printf("2- Ezekiel's WorkOut Guider\n");
@@ -161,7 +180,7 @@ void acilisEkrani()
     printf("| |/ |/ / /_/ / /  / ,< / /_/ / /_/ / /_/ ____/ / /_/ / / / / / / /  __/ /    \n");
     printf("|__/|__/\\____/_/  /_/|_|\\____/\\__,_/\\__/_/   /_/\\__,_/_/ /_/_/ /_/\\___/_/     \n");
     changeColorYellow();
-    printf("                                                     by Chariots of Ezekiel      \n\n");
+    printf("                                                     by Chariots of Ezekiel      \n");
     changeColorReset();
 }
 
@@ -175,3 +194,8 @@ void main()
     }
     
 }
+
+/*
+her satır atlandıktan sonraki ilk harfi oku ve girdiyle eşle -- sözlük için
+
+*/

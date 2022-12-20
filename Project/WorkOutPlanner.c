@@ -5,6 +5,7 @@
 
 int cikis= 1;
 float yas = 0, kilo = 0, boy = 0, boyunCevre = 0, belCevre = 0;
+float vucutKitleEndeks = 0, yagOran = 0;
 char aktiflikSeviye[20], hedefBolge[20];
 
 void changeColorRed() 
@@ -43,9 +44,37 @@ void workOutBible()
 
 }
 
+void veriYorumlayici()
+{
+    vucutKitleEndeks = vucutKitleEndeks * 10;
+    int a = vucutKitleEndeks;
+
+    if ((a/10) <= 18,5)
+    {
+        printf("ideal alti");
+    }
+    if ((a/10) >> 18,5 && (a/10) <= 24.9)
+    {
+        printf("ideal");
+    }
+    if ((a/10) >> 25 && (a/10) <= 29.9)
+    {
+        printf("ideal üstü");
+    }
+    if ((a/10) >> 30 && (a/10) <= 39.9)
+    {
+        printf("obez");
+    }
+    if ((a/10) >> 40)
+    {
+        printf("morbid obez");
+    }
+    
+}
+
 void veriHesaplayici()
 {
-    
+    vucutKitleEndeks = kilo / (boy * boy);
 }
 
 void veriAlici()
@@ -74,6 +103,8 @@ void workOutGuider()
     veriAlici();
 
     veriHesaplayici();
+
+    veriYorumlayici();
 }
 
 void monkDictionary()

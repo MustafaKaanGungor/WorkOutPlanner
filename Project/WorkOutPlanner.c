@@ -22,13 +22,24 @@ void changeColorReset()
   printf("\033[0m");
 }
 
-void veriHesaplayici()
+void changeColorBlue()
 {
-    
+    printf("\033[0;34m");
+}
+
+void changeColorGreen()
+{
+    printf("\033[0;32m");
+}
+
+void changeColorPurple()
+{
+    printf("033[0;35m");
 }
 
 void workOutBible()
 {
+
 
 }
 
@@ -39,26 +50,27 @@ void veriHesaplayici()
 
 void veriAlici()
 {
-    printf("Yasinizi giriniz.");
+    printf("Yasinizi giriniz: ");
     scanf("%f", &yas);
 
-    printf("\nKilonuzu giriniz.");
+    printf("\nKilonuzu giriniz: ");
     scanf("%f", &kilo);
 
-    printf("\nBoyunuu giriniz.");
+    printf("\nBoyunuzu giriniz: ");
     scanf("%f", &boy);
 
-    printf("\nBoyun cevrenizi cm olarak giriniz.");
+    printf("\nBoyun cevrenizi cm olarak giriniz: ");
     scanf("%f", &boyunCevre);
 
-    printf("\nBel cevrenizi cm olarak giriniz.");
+    printf("\nBel cevrenizi cm olarak giriniz: ");
     scanf("%f", &belCevre);
 }
 
 void workOutGuider()
 {
-    printf("WorkOutGuider v1.0\n");
-    
+    changeColorGreen();
+    printf("WorkOutGuider v1.0\n\n");
+    changeColorReset();
     veriAlici();
 
     veriHesaplayici();
@@ -87,7 +99,9 @@ void menuYonlendirici(int secim)
         cikis = 0;
         break;
     default:
-        printf("Lutfen mevcut sayilardan birini giriniz;");
+        changeColorRed();
+        printf("Lutfen mevcut sayilardan birini giriniz.\n\n");
+        changeColorReset();
         break;
     }
 }

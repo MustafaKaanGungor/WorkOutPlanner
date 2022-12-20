@@ -14,7 +14,7 @@ void main()
     {
         ch = fgetc(fp);
 
-        if(ch == 't')
+        if(ch == '\t')
         {
             tab++;
         }

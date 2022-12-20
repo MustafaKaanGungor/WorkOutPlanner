@@ -22,10 +22,19 @@ void changeColorReset()
   printf("\033[0m");
 }
 
-void monkDictionary()
+void veriHesaplayici()
 {
-    printf("Monk Dictionary\n");
-    printf("Kategori seciniz.");
+    
+}
+
+void workOutBible()
+{
+
+}
+
+void veriHesaplayici()
+{
+    
 }
 
 void veriAlici()
@@ -46,11 +55,6 @@ void veriAlici()
     scanf("%f", &belCevre);
 }
 
-void veriHesaplayici()
-{
-    
-}
-
 void workOutGuider()
 {
     printf("WorkOutGuider v1.0\n");
@@ -60,37 +64,10 @@ void workOutGuider()
     veriHesaplayici();
 }
 
-void workOutBible()
+void monkDictionary()
 {
-
-}
-
-void acilisEkrani()
-{
-    changeColorRed();
-    printf(" _       __           __   ____        __  ____  __                           \n");
-    printf("| |     / /___  _____/ /__/ __ \\__  __/ /_/ __ \\/ /___ _____  ____  ___  _____\n");
-    printf("| | /| / / __ \\/ ___/ //_/ / / / / / / __/ /_/ / / __ `/ __ \\/ __ \\/ _ \\/ ___/\n");
-    printf("| |/ |/ / /_/ / /  / ,< / /_/ / /_/ / /_/ ____/ / /_/ / / / / / / /  __/ /    \n");
-    printf("|__/|__/\\____/_/  /_/|_|\\____/\\__,_/\\__/_/   /_/\\__,_/_/ /_/_/ /_/\\___/_/     \n");
-    changeColorYellow();
-    printf("                                                     by Chariots of Ezekiel      \n\n");
-    changeColorReset();
-}
-
-int secimEkrani()
-{
-    int secim = 0;
-    printf("WorkOutPlanner'a hosgeldiniz\n");
-    printf("Secimizin basindaki numarayi girerek secim yapin.\n");
-    printf("1- Monk's Dictionary\n");
-    printf("2- Ezekiel's WorkOut Guider\n");
-    printf("3- WorkOut Bible\n");
-    printf("\nCikmak icin 0 giriniz.\n");
-    
-    scanf("%d", &secim);
-
-    return secim;
+    printf("Monk Dictionary\n");
+    printf("Kategori seciniz.");
 }
 
 void menuYonlendirici(int secim)
@@ -113,6 +90,34 @@ void menuYonlendirici(int secim)
         printf("Lutfen mevcut sayilardan birini giriniz;");
         break;
     }
+}
+
+int secimEkrani()
+{
+    int secim = 0;
+    printf("WorkOutPlanner'a hosgeldiniz\n");
+    printf("Secimizin basindaki numarayi girerek secim yapin.\n");
+    printf("1- Monk's Dictionary\n");
+    printf("2- Ezekiel's WorkOut Guider\n");
+    printf("3- WorkOut Bible\n");
+    printf("\nCikmak icin 0 giriniz.\n");
+    
+    scanf("%d", &secim);
+
+    return secim;
+}
+
+void acilisEkrani()
+{
+    changeColorRed();
+    printf(" _       __           __   ____        __  ____  __                           \n");
+    printf("| |     / /___  _____/ /__/ __ \\__  __/ /_/ __ \\/ /___ _____  ____  ___  _____\n");
+    printf("| | /| / / __ \\/ ___/ //_/ / / / / / / __/ /_/ / / __ `/ __ \\/ __ \\/ _ \\/ ___/\n");
+    printf("| |/ |/ / /_/ / /  / ,< / /_/ / /_/ / /_/ ____/ / /_/ / / / / / / /  __/ /    \n");
+    printf("|__/|__/\\____/_/  /_/|_|\\____/\\__,_/\\__/_/   /_/\\__,_/_/ /_/_/ /_/\\___/_/     \n");
+    changeColorYellow();
+    printf("                                                     by Chariots of Ezekiel      \n\n");
+    changeColorReset();
 }
 
 void main()

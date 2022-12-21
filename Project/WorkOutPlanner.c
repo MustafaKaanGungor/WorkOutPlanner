@@ -5,6 +5,7 @@
 #include <direct.h>
 #include <math.h>
 
+
 int cikis= 1;
 int vucutKitleEndeks = 0;
 float yas = 0, kilo = 0, boy = 0, boyunCevre = 0, belCevre = 0;
@@ -43,9 +44,65 @@ void changeColorPurple()
 
 void workOutBible()
 {
+    int bolge;
+    printf("Hosgeldin!");
+    printf("\nIstedigin bolgeyi sec:");
+    printf("\n\t1-Bacak");
+    printf("\n\t2-Kalf");
+    printf("\n\t3-Kalca");
+    printf("\n\t4-Karin");
+    printf("\n\t5-Gogus");
+    printf("\n\t6-Omuz");
+    printf("\n\t7-Sirt");
+    printf("\n\t8-On kol");
+    printf("\n\t9-Arka kol");
+    printf("\n\t10-Kardiyo");
+    printf("\n\t11-Mobilite");
+    printf("\n\t12-Esneklik\n");
+    scanf("%d",&bolge);
+    switch (bolge)
+    {
+    case 1:
+        printf("\nSquat\nLeg Press\nWalking Lunge\nDeadlift\nStanding Leg Curl\nFront Squat\nDumbbell Stiff Leg Deadlift\nOlympic Lift Snatch and Power Clean\nRomanian Deadlift(RDL)\nLeg Curl\nNordic Hamstring Curl\n");
+        break;
+    case 2:
+        printf("\nSeated Calf Raise\nStanding Calf Machine\nDonkey Calf Raise\nLeg Press Calf Raise\nip Atlama\n");
+        break;
+    case 3:
+        printf("\nHip Thrust\nSquat\nDeadlift\nLunge\nCable Glute Kickback\n");
+        break;
+    case 4:
+        printf("\nCrunch\nLegs Up Crunch\nSeated Knee Up\nRussian Twist\nPlank\nSide Plank\nLeg Raise\nAb Wheel Rollout\nTurkish Get Up\nDragon Flag\n");
+        break;
+    case 5:
+        printf("\nBench Press\nDumbbell Press\nIncline Bench Press\nDecline Bench Press\nMachine Chest Press\nMachine Fly\nPush UP\nPullover\nCable Crossover\n");
+        break;
+    case 6:
+        printf("\nOverhead Press\nArnold Press\nDumbbell Shoulder Press\nUp-right Row\nLateral Raise\nFront Raise\nOne Arm Cable Lateral Raise\nFacepull\nBent Over Lateral Raise\nZ Press\n");
+        break;
+    case 7:
+        printf("\nHyperextension\nLat Pull Down\nBarfiks\nBent Over Row\nDeadlift\nSeated Cable Row\nReverse Cable Crossover\nRack Pull\nShrug\n");
+        break;
+    case 8:
+        printf("\nIncline Dumbbell Curl\nHammer Curl\nBarbell Curl\nCable Curl\nConcentration Curl\nScot Curl Z-Bar\nHigh-Pulley Cable Curl\n");
+        break;
+    case 9:
+        printf("\nClose Grip Bench Press\nOverhead Dumbbell Extension\nCable Pushdown\nDips\nSkull Crusher\nKickback\nReverse Pushdown\n");
+        break;
+    case 10:
+        printf("\nKoşu\nYüzme\nTempolu Yürüyüş\nİp Atmalamak\nBisiklet\nDans Etmek\nHIIT\nLISS\nDağa Tırmanma\n");
+        break;
+    case 11:
+        printf("\nThread The Needle\nSpiderman Stretch\nPigeon Stretch\nAdductor Stretch\nScapula Stretch\nFoam Roller Uygulamalari\nBird Dog\nHamstring Stretch\nProne Cobra\nMcGill Curl Up\nFrog Pump\nCat-Cow\nShoulder Wall Slide\nDoorway Strectch\nShoulder Roll");
+        break;
+    case 12:
+        printf("\nChild Pose\nSeat Straddle Lotus\nForward/Side Lunges\nSeat Stretch\nStanding Hamstring Stretch\nPiriformis Stretch\nLunge With Spinal Twist\nFigure Four Stretch\n90/90 Stretch\nSeated Shoulder Squeeze\nSide Bend Stretch\nLying Pectoral Stretch\nSeated Neck Release\nLying Quad Stretch\nKnees to Chest");
+    }
 
 
-}
+
+
+}   
 
 void PrintFullPath( char * partialPath )
 {
@@ -95,8 +152,9 @@ void vucutKitleEndeksYorumlayici()
 void GunlukKaloriE()
 {
     int seviye=0;
-    printf("\n\nBazal Metabolizma hiziniz: %f", BMH_E);
-    printf("\nGun ici hareketlilik seviyesi: ");
+    printf("\nYag oraniniz: %f",yagOranE);
+    printf("\nBazal Metabolizma hiziniz: %f", BMH_E);
+    printf("\n\nGun ici hareketlilik seviyesi: ");
     printf("\n\t1- Sedanter (Hareket etmiyorum veya cok az hareket ediyorum.)");
     printf("\n\t2- Az hareketli (Hafif hareketli bir yasam / Haftada 1-3 gun egzersiz yapiyorum.)");
     printf("\n\t3- Orta derece hareketli (Hareketli bir yasam / Haftada 3-5 gun egzersiz yapiyorum.)");
@@ -128,7 +186,7 @@ void GunlukKaloriE()
 
 void hedefE()
 {
-    int hedef;
+    int hedef=0;
     printf("\n\nHedefinizi seciniz: ");
     printf("\n\t 1-Kilo vermek");
     printf("\n\t 2-Kilo almak");
@@ -137,22 +195,23 @@ void hedefE()
     scanf("%d",&hedef);
     switch (hedef)
     {
-    case '1':
-        kaloriE - 200;
+    case 1:
+        kaloriE = kaloriE - 200;
         break;
-    case '2':
-        kaloriE + 300;
+    case 2:
+        kaloriE = kaloriE + 300;
         break;
-    case '3':
-        kaloriE + 500;
+    case 3:
+       kaloriE = kaloriE + 500;
         break;
-    case '4':
-        kaloriE;
+    case 4:
+       kaloriE;
         break;
     
     default:
         break;
     }
+    printf("\nHedefiniz icin almaniz gereken kalori: %f",kaloriE);
 }
 
 

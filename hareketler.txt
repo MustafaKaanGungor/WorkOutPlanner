@@ -1,0 +1,152 @@
+Bacak %11%
+--
+Squat
+Leg Press
+Walking Lunge
+Deadlift
+Standing Leg Curl
+Front Squat
+Dumbbell Stiff Leg Deadlift
+Olympic Lift Snatch and Power Clean
+Romanian Deadlift(RDL)
+Leg Curl
+Nordic Hamstring Curl
+
+
+Kalf %5%
+--
+Seated Calf Raise
+Standing Calf Machine
+Donkey Calf Raise
+Leg Press Calf Raise
+ip Atlama
+
+Kalça %5%
+--
+Hip Thrust
+Squat
+Deadlift
+Lunge
+Cable Glute Kickback
+
+Karın %10%
+--
+Crunch
+Legs Up Crunch 
+Seated Knee Up
+Russian Twist
+Plank
+Side Plank
+Leg Raise
+Ab Wheel Rollout
+Turkish Get Up
+Dragon Flag
+
+
+Göğüs %9%
+--
+Bench Press
+Dumbbell Press
+Incline Bench Press
+Decline Bench Press
+Machine Chest Press
+Machine Fly
+Push UP
+Pullover
+Cable Crossover
+
+
+Omuz %10%
+--
+Overhead Press
+Arnold Press
+Dumbbell Shoulder Press
+Up-right Row
+Lateral Raise
+Front Raise
+One Arm Cable Lateral Raise
+Facepull
+Bent Over Lateral Raise
+Z Press
+
+Sırt %9%
+--
+Hyperextension
+Lat Pull Down
+Barfiks
+Bent Over Row
+Deadlift
+Seated Cable Row
+Reverse Cable Crossover	
+Rack Pull
+Shrug
+
+Ön kol %7%
+--
+Incline Dumbbell Curl 
+Hammer Curl
+Barbell Curl
+Cable Curl
+Concentration Curl
+Scot Curl Z-Bar
+High-Pulley Cable Curl
+
+Arka Kol %7%
+--
+Close Grip Bench Press
+Overhead Dumbbell Extension
+Cable Pushdown
+Dips
+Skull Crusher
+Kickback
+Reverse Pushdown
+
+
+Kardiyo %9%
+--
+Koşu
+Yüzme
+Tempolu Yürüyüş
+İp Atmalamak
+Bisiklet
+Dans Etmek
+HIIT 
+LISS
+Dağa Tırmanma
+
+
+Mobilite %15%
+--
+Thread The Needle
+Spiderman Stretch
+Pigeon Stretch
+Adductor Stretch
+Scapula Stretch
+Foam Roller Uygulamaları
+Bird Dog
+Hamstring Stretch
+Prone Cobra
+McGill Curl Up
+Frog Pump
+Cat-Cow
+Shoulder Wall Slide
+Doorway Strectch
+Shoulder Roll
+
+Esneklik %15%
+--
+Child Pose
+Seat Straddle Lotus
+Forward/Side Lunges
+Seat Stretch
+Standing Hamstring Stretch
+Piriformis Stretch
+Lunge With Spinal Twist
+Figure Four Stretch
+90/90 Stretch
+Seated Shoulder Squeeze
+Side Bend Stretch
+Lying Pectoral Stretch
+Seated Neck Release
+Lying Quad Stretch
+Knees to Chest

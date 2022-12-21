@@ -106,6 +106,6 @@ Quadriceps              : Dört başlı anlamında. Örneğin ‘quadriceps femo
 
 Argolar
 --
-Bro                     : ‘Kanka’ anlaiında kullanilir.  Bilincsiz sekilde antrenman yapan kisilere de bro anlami kullaniyoruz.
+Bro                     : Kanka anlaminda kullanilir.  Bilincsiz sekilde antrenman yapan kisilere de bro anlami kullaniyoruz.
 Bromance                : Kankalarin birbirine duydugu, cinsellik icermeyen sevgi.
 Broscience              : Bilimsel olmayan, kulaktan dolma; ancak bilimselmis gibi ifade edilen iddialar. %50 gercek %50 büyü ama %100 sonuc.

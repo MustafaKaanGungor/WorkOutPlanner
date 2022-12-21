@@ -8,7 +8,7 @@
 int cikis= 1;
 int vucutKitleEndeks = 0;
 float yas = 0, kilo = 0, boy = 0, boyunCevre = 0, belCevre = 0;
-float yagOranE = 0, yagOranK=0, BMH_E, BMH_K, kaloriE, kaloriK;
+float yagOranE = 0, yagOranK=0, BMH_E, BMH_K, kaloriE=0, kaloriK;
 char aktiflikSeviye[20], hedefBolge[20];
 
 void changeColorRed() 
@@ -67,43 +67,41 @@ void raporCikarici()
 
 void vucutKitleEndeksYorumlayici()
 {
-    printf("\n---=>%d",vucutKitleEndeks);
-    vucutKitleEndeks = vucutKitleEndeks * 10;
-    
-    int a = vucutKitleEndeks;
-    printf("\n===->%d",vucutKitleEndeks);
-    /*if ((a/10) <= 18,5)
+    int d=0;
+    d = vucutKitleEndeks * 100;
+
+    if (d <= 1850)
     {
-        printf("ideal alti");
+        printf("VKI: %d --> zayif",vucutKitleEndeks);
     }
-    if ((a/10) >> 18,5 && (a/10) <= 24.9)
+    if (d > 1850 && d <= 2499)
     {
-        printf("ideal");
+        printf("VKI: %d --> ideal",vucutKitleEndeks);
     }
-    if ((a/10) >> 25 && (a/10) <= 29.9)
+    if (d > 2500 && d <= 2999)
     {
-        printf("ideal üstü");
+        printf("VKI: %d --> sisman",vucutKitleEndeks);
     }
-    if ((a/10) >> 30 && (a/10) <= 39.9)
+    if (d > 3000 && d <= 3499)
     {
-        printf("obez");
+        printf("VKI: %d --> obez",vucutKitleEndeks);
     }
-    if ((a/10) >> 40)
+    else if (d > 3500)
     {
-        printf("morbid obez");
-    }*/
+        printf("VKI: %d --> morbid obez",vucutKitleEndeks);
+    }
 }
 
-float GunlukKaloriE()
+void GunlukKaloriE()
 {
-    int seviye;
+    int seviye=0;
     printf("\n\nBazal Metabolizma hiziniz: %f", BMH_E);
-    printf("\n Gun ici hareketlilik seviyesi: ");
-    printf("\n1- Sedanter (Hareket etmiyorum veya cok az hareket ediyorum.)");
-    printf("\n2- Az hareketli (Hafif hareketli bir yasam / Haftada 1-3 gun egzersiz yapiyorum.)");
-    printf("\n3- Orta derece hareketli (Hareketli bir yasam / Haftada 3-5 gun egzersiz yapiyorum.)");
-    printf("\n4- Cok hareketli (Cok hareketli bir yasam / Haftada 6-7 gun egzersiz yapiyorum.)");
-    printf("\n5- Asiri hareketli (Profesyonel sporcu, atlet seviyesi.)");
+    printf("\nGun ici hareketlilik seviyesi: ");
+    printf("\n\t1- Sedanter (Hareket etmiyorum veya cok az hareket ediyorum.)");
+    printf("\n\t2- Az hareketli (Hafif hareketli bir yasam / Haftada 1-3 gun egzersiz yapiyorum.)");
+    printf("\n\t3- Orta derece hareketli (Hareketli bir yasam / Haftada 3-5 gun egzersiz yapiyorum.)");
+    printf("\n\t4- Cok hareketli (Cok hareketli bir yasam / Haftada 6-7 gun egzersiz yapiyorum.)");
+    printf("\n\t5- Asiri hareketli (Profesyonel sporcu, atlet seviyesi.)\n");
     scanf("\n%d",&seviye);
     switch (seviye)
     {
@@ -126,7 +124,6 @@ float GunlukKaloriE()
         break;
     }
     printf("Gunluk kalori ihtiyaci: %f", kaloriE);
-    return kaloriE;
 }
 
 void hedefE()
@@ -136,7 +133,7 @@ void hedefE()
     printf("\n\t 1-Kilo vermek");
     printf("\n\t 2-Kilo almak");
     printf("\n\t 3-Hizli kilo almak");
-    printf("\n\t 4-Kilo korumak");
+    printf("\n\t 4-Kilo korumak\n");
     scanf("%d",&hedef);
     switch (hedef)
     {
@@ -166,49 +163,6 @@ void veriHesaplayici()
     yagOranE = (1.20 * vucutKitleEndeks ) + (0.23 * yas) - 16.2;
     BMH_E = 66.5 + ( 13.75 * kilo ) + ( 5.003 * boy*100 ) - ( 6.755 * yas );
     BMH_K = 655.1 + ( 9.563 * kilo ) + ( 1.85 * boy*100 ) - ( 4.676 * yas);
-
-
-
-     /*
-
-        Bazal metabolizma hizi =
-
-            Kadin = 655.1 + ( 9.563 × kilo ) + ( 1.85 × boy ) − ( 4.676 × yas)
-
-            Erkek = 66.5 + ( 13.75 × kilo ) + ( 5.003 × boy ) − ( 6.755 × yas )
-  
-        Women:
-        (1.20 x BMI) + (0.23 x Age) - 5.4 = Body Fat Percentage
-
-        Men:
-        (1.20 x BMI) + (0.23 x Age) - 16.2 = Body Fat Percentage
-
-        
-        Aktivite seviyesi
-
-            Sedanter (Hareket etmiyorum veya çok az hareket ediyorum.) BMR*1.2
-
-            Az hareketli (Hafif hareketli bir yaşam / Haftada 1-3 gün egzersiz yapıyorum.)BMR*1.3.75
-
-            Orta derece hareketli (Hareketli bir yaşam / Haftada 3-5 gün egzersiz yapıyorum.)BMR*1.55
-
-            Çok hareketli (Çok hareketli bir yaşam / Haftada 6-7 gün egzersiz yapıyorum.)BMR*1.725
-
-            Aşırı hareketli (Profesyonel sporcu, atlet seviyesi.)BMR*1.9
-
-  
-
-        Zayiflamak -200
-
-        Kilo almakk +300
-
-        Kilo korimak 0
-
-        Hizli kila almak +500
-
-  
-
-    */
 }
 
 void veriAlici()

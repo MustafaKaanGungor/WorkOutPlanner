@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include<conio.h>
+#include <conio.h>
 #include <direct.h>
 #include <math.h>
 
@@ -240,29 +240,68 @@ void veriAlici()
     scanf("%f", &belCevre);
 }
 
-void workOutGuider()
+void workOutGuider();
+
+void acilisEkrani();
+
+int menuSecimEkrani();
+
+void menuYonlendirici(int secim);
+
+void monkDictionary();
+
+int dictionarySecimEkrani();
+
+void dictionaryYonlendirici(int secim);
+
+int dictionaryKategoriSecimEkrani();
+
+void dictionaryKategoriYonlendirici(int secim);
+
+void dictionaryManuelAratici();
+
+
+
+
+
+
+void main()
 {
-    changeColorGreen();
-    printf("WorkOutGuider v1.0\n\n");
-    changeColorReset();
-    veriAlici();
+    acilisEkrani();
 
-    veriHesaplayici();
+    while (cikis)
+    {
+        menuYonlendirici(menuSecimEkrani());
+    }
     
-    vucutKitleEndeksYorumlayici();
-
-    GunlukKaloriE();
-
-    hedefE();
-
-    raporCikarici();
-
 }
 
-void monkDictionary()
+void acilisEkrani()
 {
-    printf("Monk Dictionary\n");
-    printf("Kategori seciniz.");
+    changeColorRed();
+    printf(" _       __           __   ____        __  ____  __                           \n");
+    printf("| |     / /___  _____/ /__/ __ \\__  __/ /_/ __ \\/ /___ _____  ____  ___  _____\n");
+    printf("| | /| / / __ \\/ ___/ //_/ / / / / / / __/ /_/ / / __ `/ __ \\/ __ \\/ _ \\/ ___/\n");
+    printf("| |/ |/ / /_/ / /  / ,< / /_/ / /_/ / /_/ ____/ / /_/ / / / / / / /  __/ /    \n");
+    printf("|__/|__/\\____/_/  /_/|_|\\____/\\__,_/\\__/_/   /_/\\__,_/_/ /_/_/ /_/\\___/_/     \n");
+    changeColorYellow();
+    printf("                                                     by Chariots of Ezekiel      \n");
+    changeColorReset();
+}
+
+int menuSecimEkrani()
+{
+    int secim = 0;
+    printf("\nWorkOutPlanner'a hosgeldiniz\n");
+    printf("Secimizin basindaki numarayi girerek secim yapin.\n");
+    printf("1- Monk's Dictionary\n");
+    printf("2- Ezekiel's WorkOut Guider\n");
+    printf("3- WorkOut Bible\n");
+    printf("\nCikmak icin 0 giriniz.\n");
+    
+    scanf("%d", &secim);
+
+    return secim;
 }
 
 void menuYonlendirici(int secim)
@@ -289,46 +328,166 @@ void menuYonlendirici(int secim)
     }
 }
 
-int secimEkrani()
+void monkDictionary()
 {
-    int secim = 0;
-    printf("\nWorkOutPlanner'a hosgeldiniz\n");
-    printf("Secimizin basindaki numarayi girerek secim yapin.\n");
-    printf("1- Monk's Dictionary\n");
-    printf("2- Ezekiel's WorkOut Guider\n");
-    printf("3- WorkOut Bible\n");
-    printf("\nCikmak icin 0 giriniz.\n");
-    
+    changeColorGreen();
+    printf("Monk Dictionary v1.0\n\n");
+    changeColorReset();
+
+    dictionaryYonlendirici(dictionarySecimEkrani());
+}
+
+int dictionarySecimEkrani()
+{
+    int secim;
+
+    printf("Sozluge hosgeldiniz.\n");
+    printf("Isterseniz kategorilere gore kelimelere bakabilir ya da manuel olarak kelime aratabilirsiniz.\n\n");
+
+    changeColorBlue();
+    printf("Istediginiz secenegin numarasini giriniz\n");
+    changeColorReset();
+
+    printf("1-Kategoriler\n");
+    printf("2-Manuel Arama\n");
+    printf("0-Geri Don\n");
     scanf("%d", &secim);
 
     return secim;
 }
 
-void acilisEkrani()
+void dictionaryYonlendirici(int secim)
 {
-    changeColorRed();
-    printf(" _       __           __   ____        __  ____  __                           \n");
-    printf("| |     / /___  _____/ /__/ __ \\__  __/ /_/ __ \\/ /___ _____  ____  ___  _____\n");
-    printf("| | /| / / __ \\/ ___/ //_/ / / / / / / __/ /_/ / / __ `/ __ \\/ __ \\/ _ \\/ ___/\n");
-    printf("| |/ |/ / /_/ / /  / ,< / /_/ / /_/ / /_/ ____/ / /_/ / / / / / / /  __/ /    \n");
-    printf("|__/|__/\\____/_/  /_/|_|\\____/\\__,_/\\__/_/   /_/\\__,_/_/ /_/_/ /_/\\___/_/     \n");
-    changeColorYellow();
-    printf("                                                     by Chariots of Ezekiel      \n");
-    changeColorReset();
-}
-
-void main()
-{
-    acilisEkrani();
-
-    while (cikis)
+    switch (secim)
     {
-        menuYonlendirici(secimEkrani());
+    case 1:
+        dictionaryKategoriYonlendirici(dictionaryKategoriSecimEkrani());
+        break;
+    case 2:
+        dictionaryManuelAratici();
+        break;
+    case 0:
+        break;
+    default:
+        changeColorRed();
+        printf("Lutfen mevcut sayilardan birini giriniz.\n");
+        changeColorReset();
+        break;
     }
-    
 }
 
-/*
-her satır atlandıktan sonraki ilk harfi oku ve girdiyle eşle -- sözlük için
+int dictionaryKategoriSecimEkrani()
+{
+    int secim;
+    printf("Bakmak istediginiz kategorinin numarasini giriniz.\n");
+    //kategoriler printf ile eklenecek ardından scanf ile sayı istenecek
+    scanf("%d", &secim);
+    return secim;
+}
 
-*/
+void dictionaryKategoriYonlendirici(int secim)
+{
+    //switch ile kategoriler yazdırıalacak
+}
+
+void dictionaryManuelAratici()
+{
+    char girdi[25];
+
+    char anlam[200];
+
+    char tekrarKontrol;
+
+    int harfSayisi;
+
+    do
+    {
+
+    printf("aramak istediğiniz kelimeyi giriniz: ");
+    scanf("%s%n", &girdi, &harfSayisi);
+    
+    printf("%s , %d", girdi, harfSayisi);
+
+
+    FILE *fp = fopen ("sozluk.txt", "r");
+    
+
+    char ch;
+
+    int dogrulama = 0;
+
+    while(2)
+    {
+        ch = fgetc(fp);
+
+        if(ch == '\n')
+        {
+            ch = fgetc(fp);
+
+            if(girdi[0] == ch)
+            {
+                for (size_t i = 0; i < harfSayisi - 1; i++)
+                {
+                    if(girdi[i] == ch)
+                    {
+                        ch = fgetc(fp);
+                        dogrulama++;
+                    }
+                    else
+                    break;
+                }
+                if(dogrulama == harfSayisi -1)
+                {
+                    for (size_t i = 0; i < 200; i++)
+                    {
+                        anlam[i] = ch;
+                        ch = fgetc(fp);
+                        if(ch == '\n')
+                        {
+                            break;
+                        }
+                    }
+                    
+                }
+                dogrulama = 0;
+            }
+        }
+        if(ch == EOF)
+        {
+            break;
+        }
+    }
+
+    printf("%s", anlam);
+
+    
+
+
+    fclose(fp);
+
+    printf("Bir kelime daha aratmak istermisiniz?[y/n]");
+    scanf("%c",&tekrarKontrol);
+    scanf("%c",&tekrarKontrol);
+
+    }while(tekrarKontrol == 'y');
+}
+
+void workOutGuider()
+{
+    changeColorGreen();
+    printf("WorkOutGuider v1.0\n\n");
+    changeColorReset();
+
+    veriAlici();
+
+    veriHesaplayici();
+    
+    vucutKitleEndeksYorumlayici();
+
+    GunlukKaloriE();
+
+    hedefE();
+
+    raporCikarici();
+
+}

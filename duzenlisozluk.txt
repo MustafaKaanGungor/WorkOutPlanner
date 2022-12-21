@@ -3,6 +3,7 @@ abcdefghijklmnoprstuvyz
 Genel terimler
 --
 Anabolik                : Alsştırma ile kas dokusu uretme yetenegi, doku yapısının olusturulması.
+Anterior pelvic tilt    : Pelvisin öne doğru eğilmesi, kalçanın dışa doğru çıkması ve belimizde kavis oluşması.
 Antrenman               : Ust duzey bir verimlilik, istenilen ozelliklerin gelistirilmesine yonelik yapılan çalısmalar.
 Bodybuilding            : Vucut gelistirme; kas kutlesinin artirilmasi ve simetrik bir gorunume ulasma.
 Deri altı yagi          : Deri ve kas arasindaki yag.
@@ -49,6 +50,7 @@ Decline                 : Aşağı doğru eğik olan.
 Compound                : Bilesik egzersizleri acıklamaktadir. Birden fazla kasi aktif sekilde calistiran hareketlerdir. Ornegin: Deadlift, Squat vb.
 Deficit                 : Eksiklik, yetersiz anlamında kullanılmaktadır.
 Deload                  : Asamali olarak artan yuklenmelerden sonra bir noktada tikanildigi zaman vucudun dinlendirilmesi ve yuklenmelerin dusurulmesi anlamina gelir.
+Dorsifleksiyon          : Kaval kemiğine doğru ayağın bükülmesi.
 Eksantrik kasilma       : Kasilma sirasinda kasin boyunun uzadigi kasilma turu.
 Ekstansiyon             : Açma.
 Fleksiyon               : Bukme. Ornegin biceps (pazu) kasinizi en asagidan yukariya dogru bukmeniz.
@@ -83,6 +85,11 @@ Volume                  : Antrenman hacmini ifade eder. Set x tekrar x agirlik o
 
 Vucut bolgeleri/parcalari
 --
+Anterior chain          : Vücudun ön zincirini oluşturan kaslardır, Bunlar; chest (göğüs), ABS (karın kasları), quadriceps (ön bacak).
+Brachii, brachialis     : Kola ait olan (omuz ve dirsek arası).
+Brachioradialis         : Kol ve radius kemiği ile ilgili olan.
+Costa                   : Kaburga kemiği.
+Dorsi                   : Sırt.
 Deltoids                : Omuz.
 Femur                   : Uyluk kemigi.
 Posterior               : Arkada bulunan anlamındadır. Örneğin arka omuz kaslarından ‘deltoids posterior’.
@@ -94,7 +101,7 @@ Tip2 kas tipleri        : Hizli kasilan kas fibrilleridir ve 3’e ayrilir.
 Tip2a                   : Hem oksidatif hem de glikolitik fibrildir. Kullanilan sporlara ornek: futbol, basketbol vb.
 Tip2b                   : Hizli kasilan kas fibrilidir, ornek spor olarak: sprint kosuculari, halter sporculari vb.
 Tip2c                   : Donusumlu fibrillerdir. Donusum arastırmalara gore %1 oranindadir, antrenmana bagli olarak fibrillerde donusum gorulebilir.
-
+Quadriceps              : Dört başlı anlamında. Örneğin ‘quadriceps femoris’ kası.
 
 
 Argolar

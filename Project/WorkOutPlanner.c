@@ -60,6 +60,7 @@ void workOutBible()
     printf("\n\t11-Mobilite");
     printf("\n\t12-Esneklik\n");
     scanf("%d",&bolge);
+
     switch (bolge)
     {
     case 1:
@@ -99,10 +100,7 @@ void workOutBible()
         printf("\nChild Pose\nSeat Straddle Lotus\nForward/Side Lunges\nSeat Stretch\nStanding Hamstring Stretch\nPiriformis Stretch\nLunge With Spinal Twist\nFigure Four Stretch\n90/90 Stretch\nSeated Shoulder Squeeze\nSide Bend Stretch\nLying Pectoral Stretch\nSeated Neck Release\nLying Quad Stretch\nKnees to Chest");
     }
 
-
-
-
-}   
+}
 
 void PrintFullPath( char * partialPath )
 {

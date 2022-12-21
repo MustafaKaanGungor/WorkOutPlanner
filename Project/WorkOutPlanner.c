@@ -3,10 +3,12 @@
 #include <string.h>
 #include<conio.h>
 #include <direct.h>
+#include <math.h>
 
 int cikis= 1;
+int vucutKitleEndeks = 0;
 float yas = 0, kilo = 0, boy = 0, boyunCevre = 0, belCevre = 0;
-float vucutKitleEndeks = 0, yagOran = 0;
+float yagOranE = 0, yagOranK=0, BMH_E, BMH_K, kaloriE, kaloriK;
 char aktiflikSeviye[20], hedefBolge[20];
 
 void changeColorRed() 
@@ -65,10 +67,12 @@ void raporCikarici()
 
 void vucutKitleEndeksYorumlayici()
 {
+    printf("\n---=>%d",vucutKitleEndeks);
     vucutKitleEndeks = vucutKitleEndeks * 10;
+    
     int a = vucutKitleEndeks;
-
-    if ((a/10) <= 18,5)
+    printf("\n===->%d",vucutKitleEndeks);
+    /*if ((a/10) <= 18,5)
     {
         printf("ideal alti");
     }
@@ -87,12 +91,124 @@ void vucutKitleEndeksYorumlayici()
     if ((a/10) >> 40)
     {
         printf("morbid obez");
+    }*/
+}
+
+float GunlukKaloriE()
+{
+    int seviye;
+    printf("\n\nBazal Metabolizma hiziniz: %f", BMH_E);
+    printf("\n Gun ici hareketlilik seviyesi: ");
+    printf("\n1- Sedanter (Hareket etmiyorum veya cok az hareket ediyorum.)");
+    printf("\n2- Az hareketli (Hafif hareketli bir yasam / Haftada 1-3 gun egzersiz yapiyorum.)");
+    printf("\n3- Orta derece hareketli (Hareketli bir yasam / Haftada 3-5 gun egzersiz yapiyorum.)");
+    printf("\n4- Cok hareketli (Cok hareketli bir yasam / Haftada 6-7 gun egzersiz yapiyorum.)");
+    printf("\n5- Asiri hareketli (Profesyonel sporcu, atlet seviyesi.)");
+    scanf("\n%d",&seviye);
+    switch (seviye)
+    {
+    case '1':
+        kaloriE = BMH_E * 1.2;
+        break;
+    case '2':
+        kaloriE = BMH_E * 1.375;
+        break;
+    case '3':
+        kaloriE = BMH_E * 1.55;
+        break;
+    case '4':
+        kaloriE = BMH_E * 1.725;
+        break;
+    case '5':
+        kaloriE = BMH_E * 1.9;
+        break;
+    default:
+        break;
+    }
+    printf("Gunluk kalori ihtiyaci: %f", kaloriE);
+    return kaloriE;
+}
+
+void hedefE()
+{
+    int hedef;
+    printf("\n\nHedefinizi seciniz: ");
+    printf("\n\t 1-Kilo vermek");
+    printf("\n\t 2-Kilo almak");
+    printf("\n\t 3-Hizli kilo almak");
+    printf("\n\t 4-Kilo korumak");
+    scanf("%d",&hedef);
+    switch (hedef)
+    {
+    case '1':
+        kaloriE - 200;
+        break;
+    case '2':
+        kaloriE + 300;
+        break;
+    case '3':
+        kaloriE + 500;
+        break;
+    case '4':
+        kaloriE;
+        break;
+    
+    default:
+        break;
     }
 }
 
+
 void veriHesaplayici()
 {
-    vucutKitleEndeks = kilo / (boy * boy);
+    vucutKitleEndeks = kilo / pow(boy,2);
+    yagOranK = (1.20 * vucutKitleEndeks) + (0.23 * yas) - 5.4;
+    yagOranE = (1.20 * vucutKitleEndeks ) + (0.23 * yas) - 16.2;
+    BMH_E = 66.5 + ( 13.75 * kilo ) + ( 5.003 * boy*100 ) - ( 6.755 * yas );
+    BMH_K = 655.1 + ( 9.563 * kilo ) + ( 1.85 * boy*100 ) - ( 4.676 * yas);
+
+
+
+     /*
+
+        Bazal metabolizma hizi =
+
+            Kadin = 655.1 + ( 9.563 × kilo ) + ( 1.85 × boy ) − ( 4.676 × yas)
+
+            Erkek = 66.5 + ( 13.75 × kilo ) + ( 5.003 × boy ) − ( 6.755 × yas )
+  
+        Women:
+        (1.20 x BMI) + (0.23 x Age) - 5.4 = Body Fat Percentage
+
+        Men:
+        (1.20 x BMI) + (0.23 x Age) - 16.2 = Body Fat Percentage
+
+        
+        Aktivite seviyesi
+
+            Sedanter (Hareket etmiyorum veya çok az hareket ediyorum.) BMR*1.2
+
+            Az hareketli (Hafif hareketli bir yaşam / Haftada 1-3 gün egzersiz yapıyorum.)BMR*1.3.75
+
+            Orta derece hareketli (Hareketli bir yaşam / Haftada 3-5 gün egzersiz yapıyorum.)BMR*1.55
+
+            Çok hareketli (Çok hareketli bir yaşam / Haftada 6-7 gün egzersiz yapıyorum.)BMR*1.725
+
+            Aşırı hareketli (Profesyonel sporcu, atlet seviyesi.)BMR*1.9
+
+  
+
+        Zayiflamak -200
+
+        Kilo almakk +300
+
+        Kilo korimak 0
+
+        Hizli kila almak +500
+
+  
+
+    */
 }
 
 void veriAlici()
@@ -103,7 +219,7 @@ void veriAlici()
     printf("\nKilonuzu giriniz: ");
     scanf("%f", &kilo);
 
-    printf("\nBoyunuzu giriniz: ");
+    printf("\nBoyunuzu giriniz(metre): ");
     scanf("%f", &boy);
 
     printf("\nBoyun cevrenizi cm olarak giriniz: ");
@@ -121,6 +237,12 @@ void workOutGuider()
     veriAlici();
 
     veriHesaplayici();
+    
+    vucutKitleEndeksYorumlayici();
+
+    GunlukKaloriE();
+
+    hedefE();
 
     raporCikarici();
 

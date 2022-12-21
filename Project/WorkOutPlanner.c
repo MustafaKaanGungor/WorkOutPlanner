@@ -105,19 +105,19 @@ void GunlukKaloriE()
     scanf("\n%d",&seviye);
     switch (seviye)
     {
-    case '1':
+    case 1:
         kaloriE = BMH_E * 1.2;
         break;
-    case '2':
+    case 2:
         kaloriE = BMH_E * 1.375;
         break;
-    case '3':
+    case 3:
         kaloriE = BMH_E * 1.55;
         break;
-    case '4':
+    case 4:
         kaloriE = BMH_E * 1.725;
         break;
-    case '5':
+    case 5:
         kaloriE = BMH_E * 1.9;
         break;
     default:

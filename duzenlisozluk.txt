@@ -1,0 +1,104 @@
+abcdefghijklmnoprstuvyz
+
+Genel terimler
+--
+Anabolik                : Alsştırma ile kas dokusu uretme yetenegi, doku yapısının olusturulması.
+Antrenman               : Ust duzey bir verimlilik, istenilen ozelliklerin gelistirilmesine yonelik yapılan çalısmalar.
+Bodybuilding            : Vucut gelistirme; kas kutlesinin artirilmasi ve simetrik bir gorunume ulasma.
+Deri altı yagi          : Deri ve kas arasindaki yag.
+Dinamik                 : Hareketli olan, hareketli olarak yapilan.
+Eklem                   : Kemiklerin uc uca gelip birleştikleri yer.
+Ektomorf                : Ince kemikli, dar omuzlu vucut yapisina verilen ad.
+Endomorf                : Iri yapili, genelde kilolu olan sporcularin vucut yapisina verilen ad.
+Flexibility (esneklik)  : Bir eklemin en genis açıda hareket edebilme özelligidir. Ekleme ozel olarak uygulanır.
+Glikojen                : Karbonhidratlarin kas ve karacigerde depolanma bicimleri.
+Glikoz                  : Karbonhidratlarin vucutta tasınmasi.
+Glisemi                 : Kan sekeri duzeyi.
+Glisemik indeks         : Besinin glikozun sindirim hizi ile karsılaştırıldığında ne oranda ve ne kadar hizli sindirildigini ölcmektedir.
+Hipermobilite           : Bir eklemin normal hareketindeki artis.
+Hipomobilite            : Bir eklemin normal hareketindeki azalmadır ve her zaman olmamakla birlikte genellikle doğası gereği patolojiktir.
+Insulin                 : Kandaki glikoz ve amino asitleri hucrelere ulastiran hormon.
+Insulin direnci         : Sekeri kontrol etmek icin salgilanan insulinin etkisini gostermesindeki zorluk. Insulin direnci gelistiginde hucrelere glikoz giremez, kullanilamaz.
+Kardiyo                 : Kalp, damar ve akcigerleri yuksek tempoda calistiran ve guclendiren egzersiz grubudur. Kalp ritmini yukselterek, nefes alısverisini hizlandirmaktadir.
+Katabolik               : Anabolizma sonucu meydana gelen maddelerin enerji elde etmek icin yikilmasina katabolizma denir.
+Katabolizma             : Yıkım ya da kas dokusu kaybı.
+Kortizol                : Stress anında vücudun salgıladığı bir hormon.
+Kronik                  : Devamlı olarak sürdürülen.
+Ödül günü (cheat day)   : Belirli kalori alımına vücudun uyumunu önlemek için diyet dönemlerinde kullanılan planlanmış özel bir gün.
+Plato                   : Gözlemlenebilir bir ilerlemenin görülmediği evre, durgunluk
+Post                    : “Sonra”, “sonraki” anlamındandır.
+Protein sentezi         : Vücuda alınan besinler büyük moleküller halindeki proteinleri sindirimle parçalarlar. Ortaya çıkan amino asitler hücre içine alınırlar ve vücut yapısına uygun hale getirilirler.
+Pre                     : “Önce”, “önceki” anlamındadır.
+Stabilite               : Sağlamlık, denge de tutan, dayanıklılık anlamında kullanılır.
+Statik                  : Sabit duran, sabit olarak.
+Stretch refleksi        : Ani kas kasılmalarında verile geri tepki.
+Testosteron             : Erkeklerde baskın olan cinsiyet hormonudur. Gelişime önemli katkısı bulunmaktadır.
+WADA                    : Dunya Dopingle Mucadele Ajansi.
+WR                      : Dunya rekorlari.
+
+
+
+Antrenman terimleri
+--
+Aerobik                 : Uzun sureli olan ve dusuk-orta siddette yapılan calısmalardir.
+Antagonist              : Agonist kaslarin tersine calisan bir etkiye sahip olan kas.
+Agonist                 : Kas kasılmasında doğrudan çalışan kas.
+Atrofi                  : Kullanilmama durumu veya hastalik, rahatsizlik sonucu kas kaybi.
+Bench                   : Bank anlamında kullanilir. Ornegin, gym salonlarinda bulunan duz banklar.
+Decline                 : Aşağı doğru eğik olan.
+Compound                : Bilesik egzersizleri acıklamaktadir. Birden fazla kasi aktif sekilde calistiran hareketlerdir. Ornegin: Deadlift, Squat vb.
+Deficit                 : Eksiklik, yetersiz anlamında kullanılmaktadır.
+Deload                  : Asamali olarak artan yuklenmelerden sonra bir noktada tikanildigi zaman vucudun dinlendirilmesi ve yuklenmelerin dusurulmesi anlamina gelir.
+Eksantrik kasilma       : Kasilma sirasinda kasin boyunun uzadigi kasilma turu.
+Ekstansiyon             : Açma.
+Fleksiyon               : Bukme. Ornegin biceps (pazu) kasinizi en asagidan yukariya dogru bukmeniz.
+Full body antrenman     : Antrenmanda tum vucut calistirilir.
+Gainz                   : Genellikle vücut geliştirme sporcularından duyacağınız kas kazanımı anlamında kullanılan ‘kazanç’ terimi.
+Gecikmeli kas agrisi    : Bir antrenmandan sonra olusan kas agrilari.(DOMS)
+Hipertrofi              : Kasin enine kesit alaninin genislemesi, boyut artisi, buyumesi.
+Hitching                : Aksama, aksaklık, aksilik anlamında kullanılır.
+Incline                 : Egimli olan anlaminda.
+Intensity               : Yogunluk, siddet anlamindadir. Antrenmanda ne kadar yuk kullanildigi, hangi siddet araliklarinda calisildigini ifade eder.
+Maksimal yüklenme       : 1RM’in %90-100’ı kadar yüklenmeyi tanımlamaktadır.
+Mobilite                : Mobilite yani eklem hareketliligi, iki kemigin birlestigi yeri cevreleyen dokularin (baglar, tendonlar, kaslar) kisitlanmadan hareket edebilmesi olarak ifade edilebilir.
+Orta yüklenme           : 1RM üzerinden %50-80 oranındaki ağırlıklarla yükleme.
+Overload                : Aşırı yüklenme anlamındandır.
+Overtraining            : Aşırı antrenmandan dolayı verimin düşmesi.
+Posterior pelvic tilt   : Pelvisin içe doğru gömülmesi, Karın kaslarının gergin bel kaslarının güçsüz olduğu durum.
+PR(Personel Record)     : Belirli bir antrenmanda kişinin kendi rekorunu kırmasıdır, kişisel rekor.
+Progressive Overload    : Kademeli artis, duzenli agirlik arttirmak.
+Pump                    : Pump ibaresi kirli kanin kas icinde toplanmasi yerine kullanilir.
+Range of motion         : Hareketin baslangıc ve bitis noktasini temsil eder. Ornegin Bench Press hareketinde agirligin goguse indirilip tekrar yukari kaldirilmasi, hareket mesafesidir.
+Recovery                : Antrenman sonrasi stresin vucuttan azaltilmasi ve diger antrenmana daha iyi sekilde hazirlanabilmek icin yapilan uygulamalar.
+Reps                    : Bir set icinde uygulanan alistirmanin tekrar sayisi. (Tekrarlar)
+RM                      : Tekrar maksimumu anlaminda. Genellikle 1RM de, 1 tekrarda yapilabilecek maksimum agirligi ifade eder.(Rep max)
+RPE                     : Hissedilen zorluk seviyesi anlamina gelir.(Rating of perceived exertion)
+Sertlik (şiddet)        : Antrenmanda sertlik 1RM değerine göre hesaplanmaktadır.
+Set                     : Sporcunun dinlenmeye geçmeden önce belirli egzersizde yaptığı çalışmalardır. Tekrarlar yapılır, ardından dinlenilir ve yeni bir set başlar.
+Supinasyon              : Ayak tabaninin ice, el ic yuzunun one donmesi.
+Superior                : Yukarida, ust tarafta bulunan.
+Split antrenman         : Belirli gunlerde belirli bolge veya bolgeler calisilir.
+Volume                  : Antrenman hacmini ifade eder. Set x tekrar x agirlik olarak ifade edilir.
+
+
+Vucut bolgeleri/parcalari
+--
+Deltoids                : Omuz.
+Femur                   : Uyluk kemigi.
+Posterior               : Arkada bulunan anlamındadır. Örneğin arka omuz kaslarından ‘deltoids posterior’.
+Posterior chain         : Vücudun arka zincir kaslarıdır, alt sırttan bacaklarınızın arkasına doğru giden kasların bir grubudur. Bu kaslar: lower back (alt sırt), gluteus (kalça), hamstring (arka bacak), calves (baldır).
+Postür                  : İskelet sistemimizin doğru duruş şeklidir. Vücut kısımlarının diziliş ve düzenini ifade eder.
+Scapula                 : Kürek kemiği.
+Tip1 kas tipleri        : Yavas kasilan kas fibrilleridir (oksidatif fibril).
+Tip2 kas tipleri        : Hizli kasilan kas fibrilleridir ve 3’e ayrilir.
+Tip2a                   : Hem oksidatif hem de glikolitik fibrildir. Kullanilan sporlara ornek: futbol, basketbol vb.
+Tip2b                   : Hizli kasilan kas fibrilidir, ornek spor olarak: sprint kosuculari, halter sporculari vb.
+Tip2c                   : Donusumlu fibrillerdir. Donusum arastırmalara gore %1 oranindadir, antrenmana bagli olarak fibrillerde donusum gorulebilir.
+
+
+
+Argolar
+--
+Bro                     : ‘Kanka’ anlaiında kullanilir.  Bilincsiz sekilde antrenman yapan kisilere de bro anlami kullaniyoruz.
+Bromance                : Kankalarin birbirine duydugu, cinsellik icermeyen sevgi.
+Broscience              : Bilimsel olmayan, kulaktan dolma; ancak bilimselmis gibi ifade edilen iddialar. %50 gercek %50 büyü ama %100 sonuc.

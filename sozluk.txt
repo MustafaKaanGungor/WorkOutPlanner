@@ -1,70 +1,58 @@
-Full body antrenman: Antrenmanda tüm vücut çalıştırılır.
+Full body antrenman     :Antrenmanda tum vucut calistirilir.
+Bro                     :‘Kanka’ anlaiında kullanilir.  Bilincsiz sekilde antrenman yapan kisilere de bro anlami kullaniyoruz.
+Bromance                :Kankalarin birbirine duydugu, cinsellik icermeyen sevgi.
+Broscience              :Bilimsel olmayan, kulaktan dolma; ancak bilimselmis gibi ifade edilen iddialar. %50 gercek %50 büyü ama %100 sonuc.
+Split antrenman         :Belirli gunlerde belirli bolge veya bolgeler calisilir.
+Bodybuilding            :Vucut gelistirme; kas kutlesinin artirilmasi ve simetrik bir gorunume ulasma.
+Bench                   :Bank anlamında kullanilir. Ornegin, gym salonlarinda bulunan duz banklar.
+Progressive Overload    :Kademeli artis, duzenli agirlik arttirmak.
+Compound                :Bilesik egzersizleri acıklamaktadir. Birden fazla kasi aktif sekilde calistiran hareketlerdir. Ornegin: Deadlift, Squat vb.
+Deload                  :Asamali olarak artan yuklenmelerden sonra bir noktada tikanildigi zaman vucudun dinlendirilmesi ve yuklenmelerin dusurulmesi anlamina gelir.
+RPE                     : Hissedilen zorluk seviyesi anlamina gelir.(Rating of perceived exertion)
+Deri altı yağı          :  Deri ve kas arasındaki yağ.
+Atrofi                  : Kullanılmama durumu veya hastalık, rahatsızlık sonucu kas kaybı.
 
-Bro       : ‘Kanka’ anlamında kullanılır.  Bilinçsiz şekilde antrenman yapan kişilere de bro anlamı kullanıyoruz.
+Pump                    : Pump ibaresi kirli kanın kas içinde toplanması yerine kullanılır.
 
-Bromance: Kankaların birbirine duyduğu, cinsellik içermeyen sevgi.
+Kardiyo                 : Kalp, damar ve akciğerleri yüksek tempoda çalıştıran ve güçlendiren egzersiz grubudur. Kalp ritmini yükselterek, nefes alışverişini hızlandırmaktadır.
 
-Broscience: Bilimsel olmayan, kulaktan dolma; ancak bilimselmiş gibi ifade edilen iddialar. %50 gerçek %50 büyü ama %100 sonuç.
+Glikojen                : Karbonhidratların kas ve karaciğerde depolanma biçimleri.
 
-Split antrenman: Belirli günlerde belirli bölge veya bölgeler çalışılır.
+Mobilite                : Mobilite yani eklem hareketliliği, iki kemiğin birleştiği yeri çevreleyen dokuların (bağlar, tendonlar, kaslar) kısıtlanmadan hareket edebilmesi olarak ifade edilebilir.
 
-Bodybuilding: Vücut geliştirme; kas kütlesinin artırılması ve simetrik bir görünüme ulaşma.
+Femur                   : Uyluk kemiği.
 
-Bench: Bank anlamında kullanılır. Örneğin, gym salonlarında bulunan düz banklar.
+Aerobik                 : Uzun süreli olan ve düşük-orta şiddette yapılan çalışmalardır.
 
-Progressive Overload: Kademeli artış, düzenli ağırlık arttırmak.
+Gecikmeli kas ağrısı    : Bir antrenman sonra oluşan kas ağrıları.(DOMS)
 
-Compound: Bileşik egzersizleri açıklamaktadır. Birden fazla kası aktif şekilde çalıştıran hareketlerdir. Örneğin: Deadlift, Squat vb.
+Incline                 : Eğimli olan anlamında.
 
-Deload: Aşamalı olarak artan yüklenmelerden sonra bir noktada tıkanıldığı zaman vücudun dinlendirilmesi ve yüklenmelerin düşürülmesi anlamına gelir.
+İnsülin                 : Kandaki glikoz ve amino asitleri hücrelere ulaştıran hormon.
 
-RPE(Rating of perceived exertion): Hissedilen zorluk seviyesi anlamına gelir.
+İnsülin direnci         : Şekeri kontrol etmek için salgılanan insülinin etkisini göstermesindeki zorluk. İnsülin direnci geliştiğinde hücrelere glikoz giremez, kullanılamaz.
 
-Deri altı yağı:  Deri ve kas arasındaki yağ.
+Eksantrik kasılma       : Kasılma sırasında kasın boyunun uzadığı kasılma türü.
 
-Atrofi: Kullanılmama durumu veya hastalık, rahatsızlık sonucu kas kaybı.
+İntensity               : Yoğunluk, şiddet anlamındadır. Antrenmanda ne kadar yük kullanıldığı, hangi şiddet aralıklarında çalışıldığını ifade eder.
 
-Pump: Pump ibaresi kirli kanın kas içinde toplanması yerine kullanılır.
+Antagonist              : Agonist kasların tersine çalışan bir etkiye sahip olan kas.
 
-Kardiyo: Kalp, damar ve akciğerleri yüksek tempoda çalıştıran ve güçlendiren egzersiz grubudur. Kalp ritmini yükselterek, nefes alışverişini hızlandırmaktadır.
+Katabolik               : Anabolizma sonucu meydana gelen maddelerin enerji elde etmek için yıkılmasına katabolizma denir.
 
-Glikojen: Karbonhidratların kas ve karaciğerde depolanma biçimleri.
+Fleksiyon               : Bükme. Örneğin biceps (pazu) kasınızı en aşağıdan yukarıya doğru bükmeniz.
 
-Mobilite: Mobilite yani eklem hareketliliği, iki kemiğin birleştiği yeri çevreleyen dokuların (bağlar, tendonlar, kaslar) kısıtlanmadan hareket edebilmesi olarak ifade edilebilir.
+Hipertrofi              : Kasın enine kesit alanının genişlemesi, boyut artışı, büyümesi.
 
-Femur: Uyluk kemiği.
+Ektomorf                : İnce kemikli, dar omuzlu vücut yapısına verilen ad.
 
-Aerobik: Uzun süreli olan ve düşük-orta şiddette yapılan çalışmalardır.
+Endomorf                : İri yapılı, genelde kilolu olan sporcuların vücut yapısına verilen ad.
 
-Gecikmeli kas ağrısı (DOMS): Bir antrenman sonra oluşan kas ağrıları.
+Plato                   :Gözlemlenebilir bir ilerlemenin görülmediği evre, durgunluk
 
-Incline: Eğimli olan anlamında.
+Glisemi                 : Kan şekeri düzeyi.
 
-İnsülin: Kandaki glikoz ve amino asitleri hücrelere ulaştıran hormon.
-
-İnsülin direnci: Şekeri kontrol etmek için salgılanan insülinin etkisini göstermesindeki zorluk. İnsülin direnci geliştiğinde hücrelere glikoz giremez, kullanılamaz.
-
-Eksantrik kasılma: Kasılma sırasında kasın boyunun uzadığı kasılma türü.
-
-İntensity: Yoğunluk, şiddet anlamındadır. Antrenmanda ne kadar yük kullanıldığı, hangi şiddet aralıklarında çalışıldığını ifade eder.
-
-Antagonist: Agonist kasların tersine çalışan bir etkiye sahip olan kas.
-
-Katabolik: Anabolizma sonucu meydana gelen maddelerin enerji elde etmek için yıkılmasına katabolizma denir.
-
-Fleksiyon: Bükme. Örneğin biceps (pazu) kasınızı en aşağıdan yukarıya doğru bükmeniz.
-
-Hipertrofi: Kasın enine kesit alanının genişlemesi, boyut artışı, büyümesi.
-
-Ektomorf: İnce kemikli, dar omuzlu vücut yapısına verilen ad.
-
-Endomorf: İri yapılı, genelde kilolu olan sporcuların vücut yapısına verilen ad.
-
-Durgunluk (plato): Gözlemlenebilir bir ilerlemenin görülmediği evre.
-
-Glisemi: Kan şekeri düzeyi.
-
-Glisemik indeks: Besinin glikozun sindirim hızı ile karşılaştırıldığında ne oranda ve ne kadar hızlı sindirildiğini ölçmektedir.
+Glisemik indeks         : Besinin glikozun sindirim hızı ile karşılaştırıldığında ne oranda ve ne kadar hızlı sindirildiğini ölçmektedir.
 
 Eklem: Kemiklerin uç uca gelip birleştikleri yer.
 
@@ -154,11 +142,11 @@ Supinasyon: Ayak tabanının içe, el iç yüzünün öne dönmesi.
 
 Superior: Yukarıda, üst tarafta bulunan.
 
-Tekrarlar (reps): Bir set içinde uygulanan alıştırmanın tekrar sayısı.
+Tekrarlar(reps): Bir set içinde uygulanan alıştırmanın tekrar sayısı.
 
-Tip1 kas tipleri (slow twitch) **:** Yavaş kasılan kas fibrilleridir (oksidatif fibril).
+Tip1 kas tipleri: Yavaş kasılan kas fibrilleridir (oksidatif fibril).
 
-Tip2 kas tipleri (fast twitch) : Hızlı kasılan kas fibrilleridir ve 3’e ayrılır.
+Tip2 kas tipleri: Hızlı kasılan kas fibrilleridir ve 3’e ayrılır.
 
 Tip2a Hem oksidatif hem de glikolitik fibrildir. Kullanılan sporlara örnek: futbol, basketboll vb.
 

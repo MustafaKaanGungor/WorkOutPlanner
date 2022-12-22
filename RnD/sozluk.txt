@@ -1,0 +1,124 @@
+Full body antrenman     :Antrenmanda tum vucut calistirilir.
+Bromance                :Kankalarin birbirine duydugu, cinsellik icermeyen sevgi.
+Broscience              :Bilimsel olmayan, kulaktan dolma; ancak bilimselmis gibi ifade edilen iddialar. %50 gercek %50 büyü ama %100 sonuc.
+Split antrenman         :Belirli gunlerde belirli bolge veya bolgeler calisilir.
+Bodybuilding            :Vucut gelistirme; kas kutlesinin artirilmasi ve simetrik bir gorunume ulasma.
+Bench                   :Bank anlamında kullanilir. Ornegin, gym salonlarinda bulunan duz banklar.
+Progressive Overload    :Kademeli artis, duzenli agirlik arttirmak.
+Compound                :Bilesik egzersizleri acıklamaktadir. Birden fazla kasi aktif sekilde calistiran hareketlerdir. Ornegin: Deadlift, Squat vb.
+Deload                  :Asamali olarak artan yuklenmelerden sonra bir noktada tikanildigi zaman vucudun dinlendirilmesi ve yuklenmelerin dusurulmesi anlamina gelir.
+RPE                     :Hissedilen zorluk seviyesi anlamina gelir.(Rating of perceived exertion)
+Deri altı yagi          :Deri ve kas arasindaki yag.
+Atrofi                  :Kullanilmama durumu veya hastalik, rahatsizlik sonucu kas kaybi.
+Pump                    :Pump ibaresi kirli kanin kas icinde toplanmasi yerine kullanilir.
+Kardiyo                 :Kalp, damar ve akcigerleri yuksek tempoda calistiran ve guclendiren egzersiz grubudur. Kalp ritmini yukselterek, nefes alısverisini hizlandirmaktadir.
+Glikojen                :Karbonhidratlarin kas ve karacigerde depolanma bicimleri.
+Mobilite                :Mobilite yani eklem hareketliligi, iki kemigin birlestigi yeri cevreleyen dokularin (baglar, tendonlar, kaslar) kisitlanmadan hareket edebilmesi olarak ifade edilebilir.
+Femur                   :Uyluk kemigi.
+Aerobik                 :Uzun sureli olan ve dusuk-orta siddette yapılan calısmalardir.
+Gecikmeli kas agrisi    :Bir antrenmandan sonra olusan kas agrilari.(DOMS)
+Incline                 :Egimli olan anlaminda.
+Insulin                 :Kandaki glikoz ve amino asitleri hucrelere ulastiran hormon.
+Insulin direnci         :Sekeri kontrol etmek icin salgilanan insulinin etkisini gostermesindeki zorluk. Insulin direnci gelistiginde hucrelere glikoz giremez, kullanilamaz.
+Eksantrik kasilma       :Kasilma sirasinda kasin boyunun uzadigi kasilma turu.
+Intensity               :Yogunluk, siddet anlamindadir. Antrenmanda ne kadar yuk kullanildigi, hangi siddet araliklarinda calisildigini ifade eder.
+Antagonist              :Agonist kaslarin tersine calisan bir etkiye sahip olan kas.
+Katabolik               :Anabolizma sonucu meydana gelen maddelerin enerji elde etmek icin yikilmasina katabolizma denir.
+Fleksiyon               :Bukme. Ornegin biceps (pazu) kasinizi en asagidan yukariya dogru bukmeniz.
+Hipertrofi              :Kasin enine kesit alaninin genislemesi, boyut artisi, buyumesi.
+Ektomorf                :Ince kemikli, dar omuzlu vucut yapisina verilen ad.
+Endomorf                :Iri yapili, genelde kilolu olan sporcularin vucut yapisina verilen ad.
+
+Plato                   :Gözlemlenebilir bir ilerlemenin görülmediği evre, durgunluk
+
+Glisemi                 : Kan şekeri düzeyi.
+
+Glisemik indeks         : Besinin glikozun sindirim hızı ile karşılaştırıldığında ne oranda ve ne kadar hızlı sindirildiğini ölçmektedir.
+
+Eklem                   : Kemiklerin uç uca gelip birleştikleri yer.
+
+Hitching                : Aksama, aksaklık, aksilik anlamında kullanılır.
+
+Kronik                  : Devamlı olarak sürdürülen.
+
+Gainz                   : Genellikle vücut geliştirme sporcularından duyacağınız kas kazanımı anlamında kullanılan ‘kazanç’ terimi.
+
+Agonist                 : Kas kasılmasında doğrudan çalışan kas.
+
+Maksimal yüklenme       : 1RM’in %90-100’ı kadar yüklenmeyi tanımlamaktadır.
+
+Orta yüklenme           : 1RM üzerinden %50-80 oranındaki ağırlıklarla yükleme.
+
+Ekstansiyon             : Açma.
+
+Overload                : Aşırı yüklenme anlamındandır.
+
+Ödül günü (cheat day)   : Belirli kalori alımına vücudun uyumunu önlemek için diyet dönemlerinde kullanılan planlanmış özel bir gün.
+
+Overtraining            : Aşırı antrenmandan dolayı verimin düşmesi.
+
+Glikoz                  : Karbonhidratların vücutta taşınması.
+
+Katabolizma             : Yıkım ya da kas dokusu kaybı.
+
+Kortizol                : Stress anında vücudun salgıladığı bir hormon.
+
+Anabolik                : Alıştırma ile kas dokusu üretme yeteneği, doku yapısının oluşturulması.
+
+Posterior               : Arkada bulunan anlamındadır. Örneğin arka omuz kaslarından ‘deltoids posterior’.
+
+Postür                  :İskelet sistemimizin doğru duruş şeklidir. Vücut kısımlarının diziliş ve düzenini ifade eder.
+
+Flexibility (esneklik)  : Bir eklemin en geniş açıda hareket edebilme özelliğidir. Ekleme özel olarak uygulanır.
+
+Deficit                 : Eksiklik, yetersiz anlamında kullanılmaktadır.
+
+Posterior pelvic tilt   : Pelvisin içe doğru gömülmesi, Karın kaslarının gergin bel kaslarının güçsüz olduğu durum.
+
+Deltoids                : Omuz.
+
+Antrenman               : Üst düzey bir verimlilik, istenilen özelliklerin geliştirilmesine yönelik yapılan çalışmalar.
+
+Protein sentezi         : Vücuda alınan besinler büyük moleküller halindeki proteinleri sindirimle parçalarlar. Ortaya çıkan amino asitler hücre içine alınırlar ve vücut yapısına uygun hale getirilirler.
+
+Stretch refleksi        : Ani kas kasılmalarında verile geri tepki.
+
+Decline                 : Aşağı doğru eğik olan.
+
+Stabilite               :Sağlamlık, denge de tutan, dayanıklılık anlamında kullanılır.
+
+Statik                  : Sabit duran, sabit olarak.
+
+Posterior chain         : Vücudun arka zincir kaslarıdır, alt sırttan bacaklarınızın arkasına doğru giden kasların bir grubudur. Bu kaslar: lower back (alt sırt), gluteus (kalça), hamstring (arka bacak), calves (baldır).
+
+Post                    : “Sonra”, “sonraki” anlamındandır.
+
+Pre                     : “Önce”, “önceki” anlamındadır.
+
+Sertlik (şiddet, yeğinlik): Antrenmanda sertlik 1RM değerine göre hesaplanmaktadır.
+
+Set                     : Sporcunun dinlenmeye geçmeden önce belirli egzersizde yaptığı çalışmalardır. Tekrarlar yapılır, ardından dinlenilir ve yeni bir set başlar.
+
+Scapula                 : Kürek kemiği.
+
+Testosteron             : Erkeklerde baskın olan cinsiyet hormonudur. Gelişime önemli katkısı bulunmaktadır.
+
+PR(Personel Record)     : Belirli bir antrenmanda kişinin kendi rekorunu kırmasıdır, kişisel rekor.
+
+Dinamik                 :Hareketli olan, hareketli olarak yapilan.
+RM                      :Tekrar maksimumu anlaminda. Genellikle 1RM de, 1 tekrarda yapilabilecek maksimum agirligi ifade eder.(Rep max)
+Range of motion         :Hareketin baslangıc ve bitis noktasini temsil eder. Ornegin Bench Press hareketinde agirligin goguse indirilip tekrar yukari kaldirilmasi, hareket mesafesidir.
+Volume                  :Antrenman hacmini ifade eder. Set x tekrar x agirlik olarak ifade edilir.
+Toparlanma              :Antrenman sonrasi stresin vucuttan azaltilmasi ve diger antrenmana daha iyi sekilde hazirlanabilmek icin yapilan uygulamalar.
+Recovery                :Antrenman sonrasi stresin vucuttan azaltilmasi ve diger antrenmana daha iyi sekilde hazirlanabilmek icin yapilan uygulamalar.
+WADA                    :Dunya Dopingle Mucadele Ajansi.
+WR                      :Dunya rekorlari.
+Supinasyon              :Ayak tabaninin ice, el ic yuzunun one donmesi.
+Superior                :Yukarida, ust tarafta bulunan.
+Tekrarlar               :Bir set içinde uygulanan alıştırmanın tekrar sayısı. (reps)
+Reps                    :Bir set icinde uygulanan alistirmanin tekrar sayisi. (Tekrarlar)
+Tip1 kas tipleri        :Yavas kasilan kas fibrilleridir (oksidatif fibril).
+Tip2 kas tipleri        :Hizli kasilan kas fibrilleridir ve 3’e ayrilir.
+Tip2a                   :Hem oksidatif hem de glikolitik fibrildir. Kullanilan sporlara ornek: futbol, basketbol vb.
+Tip2b                   :Hizli kasilan kas fibrilidir, ornek spor olarak: sprint kosuculari, halter sporculari vb.
+Tip2c                   :Donusumlu fibrillerdir. Donusum arastırmalara gore %1 oranindadir, antrenmana bagli olarak fibrillerde donusum gorulebilir.

@@ -1,7 +1,3 @@
-abcdefghijklmnoprstuvyz
-
-Genel terimler
---
 Anabolik                : Alsştırma ile kas dokusu uretme yetenegi, doku yapısının olusturulması.
 Anterior pelvic tilt    : Pelvisin öne doğru eğilmesi, kalçanın dışa doğru çıkması ve belimizde kavis oluşması.
 Antrenman               : Ust duzey bir verimlilik, istenilen ozelliklerin gelistirilmesine yonelik yapılan çalısmalar.
@@ -37,10 +33,6 @@ Testosteron             : Erkeklerde baskın olan cinsiyet hormonudur. Gelişime
 WADA                    : Dunya Dopingle Mucadele Ajansi.
 WR                      : Dunya rekorlari.
 
-
-
-Antrenman terimleri
---
 Aerobik                 : Uzun sureli olan ve dusuk-orta siddette yapılan calısmalardir.
 Antagonist              : Agonist kaslarin tersine calisan bir etkiye sahip olan kas.
 Agonist                 : Kas kasılmasında doğrudan çalışan kas.
@@ -82,9 +74,6 @@ Superior                : Yukarida, ust tarafta bulunan.
 Split antrenman         : Belirli gunlerde belirli bolge veya bolgeler calisilir.
 Volume                  : Antrenman hacmini ifade eder. Set x tekrar x agirlik olarak ifade edilir.
 
-
-Vucut bolgeleri/parcalari
---
 Anterior chain          : Vücudun ön zincirini oluşturan kaslardır, Bunlar; chest (göğüs), ABS (karın kasları), quadriceps (ön bacak).
 Brachii, brachialis     : Kola ait olan (omuz ve dirsek arası).
 Brachioradialis         : Kol ve radius kemiği ile ilgili olan.
@@ -103,9 +92,6 @@ Tip2b                   : Hizli kasilan kas fibrilidir, ornek spor olarak: sprin
 Tip2c                   : Donusumlu fibrillerdir. Donusum arastırmalara gore %1 oranindadir, antrenmana bagli olarak fibrillerde donusum gorulebilir.
 Quadriceps              : Dört başlı anlamında. Örneğin ‘quadriceps femoris’ kası.
 
-
-Argolar
---
 Bro                     : Kanka anlaminda kullanilir.  Bilincsiz sekilde antrenman yapan kisilere de bro anlami kullaniyoruz.
 Bromance                : Kankalarin birbirine duydugu, cinsellik icermeyen sevgi.
 Broscience              : Bilimsel olmayan, kulaktan dolma; ancak bilimselmis gibi ifade edilen iddialar. %50 gercek %50 büyü ama %100 sonuc.

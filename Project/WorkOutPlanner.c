@@ -8,10 +8,11 @@
 
 
 int cikis= 1;
-int vucutKitleEndeks = 0;
+int vucutKitleEndeks = 0, hareketlilikSeviye = 0, hedef = 0;
 float yas = 0, kilo = 0, boy = 0, boyunCevre = 0, belCevre = 0;
 float yagOranE = 0, yagOranK=0, BMH_E, BMH_K, kaloriE=0, kaloriK;
-char aktiflikSeviye[20], hedefBolge[20];
+float yagOran = 0, BMH = 0, kalori = 0;
+char cinsiyet;
 
 
 
@@ -53,6 +54,8 @@ int menuSecimEkrani();
 
 void menuYonlendirici(int secim);
 
+void info();
+
 void monkDictionary();
 
 int dictionarySecimEkrani();
@@ -62,6 +65,14 @@ void dictionaryYonlendirici(int secim);
 int dictionaryKategoriSecimEkrani();
 
 void dictionaryKategoriYonlendirici(int secim);
+
+void dictionaryKategori1();
+
+void dictionaryKategori2();
+
+void dictionaryKategori3();
+
+void dictionaryKategori4();
 
 void dictionaryManuelAratici();
 
@@ -75,13 +86,15 @@ void vucutKitleEndeksYorumlayici();
 
 void GunlukKaloriYorumlayici();
 
-void hedefYorumlayici();
-
-void raporCikarici();
+void SonucCikarici();
 
 void PrintPath( char * partialPath );
 
 void workOutBible();
+
+int workOutBibleSecimEkrani();
+
+void workOutBibleYonlendirici(int secim);
 
 
 
@@ -114,11 +127,17 @@ void acilisEkrani()
 int menuSecimEkrani()
 {
     int secim = 0;
+
     printf("\nWorkOutPlanner'a hosgeldiniz\n");
+
+    changeColorBlue();
     printf("Secimizin basindaki numarayi girerek secim yapin.\n");
+    changeColorReset();
+
     printf("1- Monk's Dictionary\n");
-    printf("2- Ezekiel's WorkOut Guider\n");
+    printf("2- Chariot's WorkOut Guider\n");
     printf("3- WorkOut Bible\n");
+    printf("4- Info\n");
     printf("\nCikmak icin 0 giriniz.\n");
     
     scanf("%d", &secim);
@@ -139,6 +158,9 @@ void menuYonlendirici(int secim)
     case 3:
         workOutBible();
         break;
+    case 4:
+        info();
+        break;
     case 0:
         cikis = 0;
         break;
@@ -148,6 +170,21 @@ void menuYonlendirici(int secim)
         changeColorReset();
         break;
     }
+}
+
+void info()
+{
+    changeColorBlue();
+    printf("\n\nWorkOutPlanner version 1.0");
+    changeColorReset();
+    printf("\nEmegi gecenler:\n");
+    printf("22181616049 Mustafa Kaan Gungor - Bilgisayar Muhendisligi 1. sinif 2. sube\n");
+    printf("22181617014 Metin Kerpic - Bilgisayar Muhendisligi 1. sinif 2. sube\n");
+
+    changeColorRed();
+    printf("\n Chariots of Ezekiel\n");
+    changeColorReset();
+
 }
 
 
@@ -221,12 +258,19 @@ void dictionaryKategoriYonlendirici(int secim)
     switch (secim)
     {
     case 1:
-        //Dosyadan çek burayı
+        dictionaryKategori1();
         break;
     case 2:
-        
+        dictionaryKategori2();
+        break;
+    case 3:
+        dictionaryKategori3();
+        break;
+    case 4:
+        dictionaryKategori4();
         break;
     case 0:
+        monkDictionary();
         break;
     default:
         changeColorRed();
@@ -234,6 +278,138 @@ void dictionaryKategoriYonlendirici(int secim)
         changeColorReset();
         break;
     }
+}
+
+void dictionaryKategori1()
+{
+    FILE *fp = fopen ("duzenlisozluk.txt", "r");
+
+    char ch;
+
+    char kelimeler[10000];
+
+    int newLine = 0;
+
+            int i = 0;
+
+
+        
+
+            while (newLine != 34){
+            
+            ch = fgetc(fp);
+
+
+            i++;
+
+    printf("%c", ch);
+
+            if(ch == '\n')
+            {
+            newLine++;
+            
+            }
+
+            }
+        
+
+    fclose(fp);
+
+}
+
+void dictionaryKategori2()
+{
+    FILE *fp = fopen ("duzenlisozluk.txt", "r");
+    char ch;
+
+    int newLine = 35, oldLines = 0;
+
+    int i = 0;
+
+    while (newLine != 75)
+    {
+        ch = fgetc(fp);
+        if(ch == '\n')
+        {
+            oldLines++;
+        }
+        if(oldLines >= 34){
+        i++;
+
+        printf("%c", ch);
+
+        if(ch == '\n')
+        {
+        newLine++;
+        }}
+    }
+
+    fclose(fp);
+
+}
+
+void dictionaryKategori3()
+{
+    FILE *fp = fopen ("duzenlisozluk.txt", "r");
+    char ch;
+
+    int newLine = 76, oldLines = 0;
+
+    int i = 0;
+
+
+    while (newLine != 94)
+    {
+        ch = fgetc(fp);
+        if(ch == '\n')
+        {
+            oldLines++;
+        }
+        if(oldLines >= 75){
+        i++;
+
+        printf("%c", ch);
+
+        if(ch == '\n')
+        {
+        newLine++;
+        }}
+    }
+
+    fclose(fp);
+
+}
+
+void dictionaryKategori4()
+{
+    FILE *fp = fopen ("duzenlisozluk.txt", "r");
+    char ch;
+
+    int newLine = 94, oldLines = 0;;
+
+    int i = 0;
+
+    while (newLine != 98)
+    {
+        ch = fgetc(fp);
+        if(ch == '\n')
+        {
+            oldLines++;
+        }
+        if(oldLines >= 93){
+        i++;
+
+        printf("%c", ch);
+
+        if(ch == '\n')
+        {
+        newLine++;
+        }}
+    }
+
+    fclose(fp);
+
+
 }
 
 void dictionaryManuelAratici()
@@ -246,11 +422,11 @@ void dictionaryManuelAratici()
 
     do
     {
-    printf("aramak istediğiniz kelimeyi giriniz: ");
+    printf("Aramak istediginiz kelimeyi giriniz: ");
     scanf("%s%n", &girdi, &harfSayisi);
     printf("%s", girdi);
 
-    FILE *fp = fopen ("sozluk.txt", "r");
+    FILE *fp = fopen ("duzenlisozluk.txt", "r");
 
     while(2)
     {
@@ -300,7 +476,10 @@ void dictionaryManuelAratici()
 
     fclose(fp);
 
-    printf("\nBir kelime daha aratmak ister misiniz?[y/n]");
+    changeColorBlue();
+    printf("\n\nBir kelime daha aratmak ister misiniz?[y/n]");
+    changeColorReset();
+
     scanf("%c",&tekrarKontrol);
     scanf("%c",&tekrarKontrol);
 
@@ -319,19 +498,21 @@ void workOutGuider()
 
     veriHesaplayici();
 
-    vucutKitleEndeksYorumlayici();
-
     GunlukKaloriYorumlayici();
 
-    hedefYorumlayici();
+    vucutKitleEndeksYorumlayici();
 
-    raporCikarici();
+    SonucCikarici();
 
 }
 
 void veriAlici()
 {
-    printf("Yasinizi giriniz: ");
+    printf("Cinsiyetinizi giriniz: ");
+    scanf("%c", &cinsiyet);
+    scanf("%c", &cinsiyet);
+
+    printf("\nYasinizi giriniz: ");
     scanf("%f", &yas);
 
     printf("\nKilonuzu giriniz: ");
@@ -345,6 +526,21 @@ void veriAlici()
 
     printf("\nBel cevrenizi cm olarak giriniz: ");
     scanf("%f", &belCevre);
+
+    printf("\n\nGun ici hareketlilik seviyesi: ");
+    printf("\n\t1- Sedanter (Hareket etmiyorum veya cok az hareket ediyorum.)");
+    printf("\n\t2- Az hareketli (Hafif hareketli bir yasam / Haftada 1-3 gun egzersiz yapiyorum.)");
+    printf("\n\t3- Orta derece hareketli (Hareketli bir yasam / Haftada 3-5 gun egzersiz yapiyorum.)");
+    printf("\n\t4- Cok hareketli (Cok hareketli bir yasam / Haftada 6-7 gun egzersiz yapiyorum.)");
+    printf("\n\t5- Asiri hareketli (Profesyonel sporcu, atlet seviyesi.)\n");
+    scanf("\n%d",&hareketlilikSeviye);
+
+    printf("\n\nHedefinizi seciniz: ");
+    printf("\n\t 1-Kilo vermek");
+    printf("\n\t 2-Kilo almak");
+    printf("\n\t 3-Hizli kilo almak");
+    printf("\n\t 4-Kilo korumak\n");
+    scanf("%d",&hedef);
 }
 
 void veriHesaplayici()
@@ -356,6 +552,56 @@ void veriHesaplayici()
 
     BMH_E = 66.5 + ( 13.75 * kilo ) + ( 5.003 * boy*100 ) - ( 6.755 * yas );
     BMH_K = 655.1 + ( 9.563 * kilo ) + ( 1.85 * boy*100 ) - ( 4.676 * yas);
+
+    if(cinsiyet == 'E')
+    {
+        yagOran = yagOranE;
+        BMH = BMH_E;
+    }
+    if(cinsiyet == 'K')
+    {
+        yagOran = yagOranK;
+        BMH = BMH_K;
+    }
+
+    switch (hareketlilikSeviye)
+    {
+    case 1:
+        kalori = BMH * 1.2;
+        break;
+    case 2:
+        kalori = BMH * 1.375;
+        break;
+    case 3:
+        kalori = BMH * 1.55;
+        break;
+    case 4:
+        kalori = BMH * 1.725;
+        break;
+    case 5:
+        kalori = BMH * 1.9;
+        break;
+    default:
+        break;
+    }
+
+    switch (hedef)
+    {
+    case 1:
+        kalori = kalori - 200;
+        break;
+    case 2:
+        kalori = kalori + 300;
+        break;
+    case 3:
+       kalori = kalori + 500;
+        break;
+    case 4:
+       kalori;
+        break;
+    default:
+        break;
+    }
 }
 
 void vucutKitleEndeksYorumlayici()
@@ -363,99 +609,48 @@ void vucutKitleEndeksYorumlayici()
     int d=0;
     d = vucutKitleEndeks * 100;
 
+    changeColorGreen();
     if (d <= 1850)
     {
-        printf("VKI: %d --> zayif",vucutKitleEndeks);
+        printf("\nVKI: %d --> zayif",vucutKitleEndeks);
     }
     if (d > 1850 && d <= 2499)
     {
-        printf("VKI: %d --> ideal",vucutKitleEndeks);
+        printf("\nVKI: %d --> ideal",vucutKitleEndeks);
     }
     if (d > 2500 && d <= 2999)
     {
-        printf("VKI: %d --> sisman",vucutKitleEndeks);
+        printf("\nVKI: %d --> sisman",vucutKitleEndeks);
     }
     if (d > 3000 && d <= 3499)
     {
-        printf("VKI: %d --> obez",vucutKitleEndeks);
+        printf("\nVKI: %d --> obez",vucutKitleEndeks);
     }
     else if (d > 3500)
     {
-        printf("VKI: %d --> morbid obez",vucutKitleEndeks);
+        printf("\nVKI: %d --> morbid obez",vucutKitleEndeks);
     }
+    changeColorReset();
 }
 
 void GunlukKaloriYorumlayici()
 {
-    int seviye=0;
-    printf("\nYag oraniniz: %f",yagOranE);
-    printf("\nBazal Metabolizma hiziniz: %f", BMH_E);
-    printf("\n\nGun ici hareketlilik seviyesi: ");
-    printf("\n\t1- Sedanter (Hareket etmiyorum veya cok az hareket ediyorum.)");
-    printf("\n\t2- Az hareketli (Hafif hareketli bir yasam / Haftada 1-3 gun egzersiz yapiyorum.)");
-    printf("\n\t3- Orta derece hareketli (Hareketli bir yasam / Haftada 3-5 gun egzersiz yapiyorum.)");
-    printf("\n\t4- Cok hareketli (Cok hareketli bir yasam / Haftada 6-7 gun egzersiz yapiyorum.)");
-    printf("\n\t5- Asiri hareketli (Profesyonel sporcu, atlet seviyesi.)\n");
-    scanf("\n%d",&seviye);
-    switch (seviye)
-    {
-    case 1:
-        kaloriE = BMH_E * 1.2;
-        break;
-    case 2:
-        kaloriE = BMH_E * 1.375;
-        break;
-    case 3:
-        kaloriE = BMH_E * 1.55;
-        break;
-    case 4:
-        kaloriE = BMH_E * 1.725;
-        break;
-    case 5:
-        kaloriE = BMH_E * 1.9;
-        break;
-    default:
-        break;
-    }
-    printf("Gunluk kalori ihtiyaci: %f", kaloriE);
+    changeColorGreen();
+    printf("\nYag oraniniz: %f",yagOran);
+    printf("\nBazal Metabolizma hiziniz: %f", BMH);
+
+    printf("\nGunluk kalori ihtiyaci: %f", kalori);
+    printf("\nHedefiniz icin almaniz gereken kalori: %f",kalori);
+
+    changeColorReset();
 }
 
-void hedefYorumlayici()
-{
-    int hedef=0;
-    printf("\n\nHedefinizi seciniz: ");
-    printf("\n\t 1-Kilo vermek");
-    printf("\n\t 2-Kilo almak");
-    printf("\n\t 3-Hizli kilo almak");
-    printf("\n\t 4-Kilo korumak\n");
-    scanf("%d",&hedef);
-    switch (hedef)
-    {
-    case 1:
-        kaloriE = kaloriE - 200;
-        break;
-    case 2:
-        kaloriE = kaloriE + 300;
-        break;
-    case 3:
-       kaloriE = kaloriE + 500;
-        break;
-    case 4:
-       kaloriE;
-        break;
-    
-    default:
-        break;
-    }
-    printf("\nHedefiniz icin almaniz gereken kalori: %f",kaloriE);
-}
-
-void raporCikarici()
+void SonucCikarici()
 {
     changeColorGreen();
-    printf("\nSonuclariniza daha sonra da ulasabilmeniz icin");
-    PrintPath("Sonuc.txt");
-    printf("yolundaki text dosyasina yazdik.\n");
+    printf("\n\nHedeflerinize ulasmanize yardim edecek dogru hareketler icin");
+    PrintPath("hareketler.txt");
+    printf("yolundaki text dosyasina bakiniz.\n");
     changeColorReset();
 }
 
@@ -465,14 +660,23 @@ void PrintPath( char * partialPath )
    if( _fullpath( full, partialPath, _MAX_PATH ) != NULL )
       printf( "  %s ", full );
    else
-      printf( "Invalid path\n" );
+      printf( "Gecerli olmayan yol\n" );
 }
 
 
 
 void workOutBible()
 {
-    int bolge;
+    changeColorGreen();
+    printf("\nWorkOut Bible v1.0\n");
+    changeColorReset();
+
+    workOutBibleYonlendirici(workOutBibleSecimEkrani());
+}
+
+int workOutBibleSecimEkrani()
+{
+    int secim;
     printf("Hosgeldin!");
     printf("\nIstedigin bolgeyi sec:");
     printf("\n\t1-Bacak");
@@ -487,9 +691,16 @@ void workOutBible()
     printf("\n\t10-Kardiyo");
     printf("\n\t11-Mobilite");
     printf("\n\t12-Esneklik\n");
-    scanf("%d",&bolge);
+    printf("\t0-Geri Don\n");
 
-    switch (bolge)
+    scanf("%d",&secim);
+
+    return secim;
+}
+
+void workOutBibleYonlendirici(int secim)
+{
+    switch (secim)
     {
     case 1:
         printf("\nSquat\nLeg Press\nWalking Lunge\nDeadlift\nStanding Leg Curl\nFront Squat\nDumbbell Stiff Leg Deadlift\nOlympic Lift Snatch and Power Clean\nRomanian Deadlift(RDL)\nLeg Curl\nNordic Hamstring Curl\n");
@@ -526,6 +737,12 @@ void workOutBible()
         break;
     case 12:
         printf("\nChild Pose\nSeat Straddle Lotus\nForward/Side Lunges\nSeat Stretch\nStanding Hamstring Stretch\nPiriformis Stretch\nLunge With Spinal Twist\nFigure Four Stretch\n90/90 Stretch\nSeated Shoulder Squeeze\nSide Bend Stretch\nLying Pectoral Stretch\nSeated Neck Release\nLying Quad Stretch\nKnees to Chest");
+    case 0:
+        break;
+    default:
+        changeColorRed();
+        printf("Lutfen mevcut sayilardan birini giriniz.\n");
+        changeColorReset();
+        break;
     }
-
 }
